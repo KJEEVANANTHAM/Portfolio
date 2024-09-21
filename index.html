@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">Jeevanantham</a>
+
+            <ul class="navbar">
+                <li><a href="#home" class="nav-link">home</a></li>
+                <li><a href="#about" class="nav-link">about</a></li>
+                <li><a href="#services" class="nav-link">services</a></li>
+                <li><a href="#portfolio" class="nav-link">portfolio</a></li>
+                <li><a href="#contact" class="nav-link">contact</a></li>
+            </ul>
+
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="home container" class="home">
+        <div class="home-content">
+            <div class="home-img">
+                <img src="images/IMG_20210518_212445.jpg" alt="">
+            </div>
+            <div class="home-text">
+                <h3>Hello</h3>
+                <h2>I'm <span class="color">JEEVANANTHAM</span></h2>
+                <p>
+                    I have a strong passion for building web application & Full Stack Developer
+                    <br>Here's a bit more about me.
+                </p>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/jeevanantham73"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.instagram.com/j_e_e_v_a_f_s_d?igsh=MTdwd2lxYnVhemdidA=="><i class='bx bxl-instagram'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about container" id="about">
+        <h2 class="heading">About</h2>
+
+        <div class="about-content">
+            <div class="about-data">
+                <span>About Me</span>
+                <h2>Web Developer,<br>
+                    web Designer,data Base & Django Developer
+                </h2>
+                <a href="JEEVANANTHAM RESUME .pdf" class="btn" download="">
+                    Download Cv
+                    <i class='bx bxs-download'></i>
+                </a>
+            </div>
+            <div class="about-text">
+                <p>Hello! I am Jeevanantham. Web Developer, Web Designer, DataBase & Django Developer</p>
+                <p>Get your project book with contact button.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services cotainer" id="services">
+
+        <h2 class="heading">Services</h2>
+
+        <div class="services-content">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h2>Web Development</h2><br>
+
+                <p>web applications are available on the mobile phone. Some of
+                    them are the development of previous web application.
+                    Let us mention Facebook, YouTube, WordPress, and any other platforms
+                    which previously you can only access from a browser on your PC or phone,
+                    and now they have their apps that you can download on your android or iOS
+                    and we will make you happy!<br>
+                    Coding is kind of a magic </p>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-django'></i>
+                <h2>Full Stack Development</h2><br>
+
+                <p>We craft robust and high-performing Django websites tailored to your needs.
+                    We specialize in building powerful Django websites that deliver exceptional results.
+                    Leveraging Django's capabilities, we build secure and scalable websites that empower your business.
+                    Partner with us to build a Django-powered website that stands out from the competition.
+                    Our expertise in Django allows us to create custom websites that drive growth and engagement.
+                    <br>Coding is kind of a magic
+                </p>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-postgresql'></i>
+                <h2>Sql,DataBase</h2><br>
+
+                <p>Almost every function such as retrieving data from the database,
+                    creating a new database, manipulating data and databases such as
+                    insertion, deletion and updation can be performed using SQL. and
+                    we will make you happy!
+                    <br>Coding is kind of a magic
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact container" id="contact">
+
+        <h2 class="heading">contact</h2>
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" id="contact-form">
+            <input type="hidden" name="access_key" value="011a79a0-f02a-4f9c-b314-4c32ef0918da">
+            <input type="text" placeholder="Your Name" name="name" class="name" required>
+            <input type="email"placeholder="Email address" name="email" class="email" required>
+            <textarea name="message"placeholder="Write message here" class="message" required></textarea>
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            <button type="submit" value="Send" class="send-btn">Send</button>    
+        </form>
+    </section>
+    <P class="copyright" align="center">
+        <a href="#"><i class='bx bx-copyright'></i></a>
+
+
+        Copyright 2023
+    </P>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
